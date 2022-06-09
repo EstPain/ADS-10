@@ -4,6 +4,8 @@
 #include  <locale>
 #include  <cstdlib>
 #include  "tree.h"
+#include  <vector>
+#include  <string>
 
 std::vector<char> getPerm(const Tree& tree, int n) {
   std::string source = tree[n - 1];
